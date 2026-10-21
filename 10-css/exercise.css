@@ -40,3 +40,44 @@
 
 /* TODO: a rule for `.price` that sets
  *       color, and font-weight. */
+/* 10-css — your work goes in this file. */
+
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: #f4f6f8;
+}
+
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav a {
+  color: #1a4f8b;
+  text-decoration: none;
+}
+
+.card-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.price {
+  color: #c0392b;
+  font-weight: bold;
+}
